@@ -14,10 +14,8 @@ public class Main {
 
         Book book = new Book(userTitle, userAuthor, userContent);
 
-        book.contentObj.show();
         book.titleObj.show();
         book.authorObj.show();
-
-
+        book.contentObj.show();
     }
 }
