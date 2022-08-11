@@ -1,17 +1,17 @@
 package Homework1_Task5;
 
 public class Address {
-    int index;
+    String index;
     String country;
     String city;
     String street;
-    int house;
-    int apartment;
+    String house;
+    String apartment;
 
     public Address(){
 
     }
-    public Address(int index, String country, String city, String street, int house, int apartment){
+    public Address(String index, String country, String city, String street, String house, String apartment){
         this.index = index;
         this.country = country;
         this.city = city;
@@ -19,10 +19,10 @@ public class Address {
         this.house = house;
         this.apartment = apartment;
     }
-    public int getIndex() {
+    public String getIndex() {
         return index;
     }
-    public int setIndex(int index){
+    public String setIndex(String index){
         this.index = index;
         return index;
     }
@@ -51,18 +51,18 @@ public class Address {
         return street;
     }
 
-    public int getHouse(){
+    public String getHouse(){
         return house;
     }
-    public int setHouse(int house){
+    public String setHouse(String house){
         this.house = house;
         return house;
     }
 
-    public int getApartment(){
+    public String getApartment(){
         return apartment;
     }
-    public void setApartment(int apartment){
+    public void setApartment(String apartment){
         this.apartment = apartment;
     }
 
