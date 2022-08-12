@@ -13,6 +13,5 @@ public class Car {
     }
 //    Конструктор с 2 параметрами
     public Car(int year, String color){
-        
     }
 }
