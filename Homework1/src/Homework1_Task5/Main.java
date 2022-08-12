@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Task5");
-        
+
         Address address1 = new Address(userIn("Index"), userIn("Country"), userIn("City"),
                 userIn("Street"), userIn("House"), userIn("Apartment"));
         String myIndex = address1.getIndex();
